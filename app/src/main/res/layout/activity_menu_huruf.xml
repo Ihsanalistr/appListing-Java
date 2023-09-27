@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuHuruf">
+
+    <ImageView
+        android:id="@+id/icLogo2"
+        android:layout_width="333dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:contentDescription="TODO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/listing_application_removebg_preview" />
+
+    <TextView
+        android:id="@+id/lblHyd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/lblHyd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icLogo2" />
+
+    <EditText
+        android:id="@+id/txtInp1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/lblKos"
+        app:layout_constraintStart_toEndOf="@+id/lblHyd"
+        app:layout_constraintTop_toBottomOf="@+id/icLogo2" />
+
+    <EditText
+        android:id="@+id/txtInp2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/lblKos"
+        app:layout_constraintStart_toEndOf="@+id/lblKe"
+        app:layout_constraintTop_toBottomOf="@+id/icLogo2" />
+
+    <EditText
+        android:id="@+id/txtInputan2"
+        android:layout_width="281dp"
+        android:layout_height="194dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtInp1" />
+
+    <Button
+        android:id="@+id/btnKirim2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/lblKirim"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtInputan2" />
+
+    <TextView
+        android:id="@+id/lblKe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/lblPghbg"
+        app:layout_constraintStart_toEndOf="@+id/txtInp1"
+        app:layout_constraintTop_toBottomOf="@+id/icLogo2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

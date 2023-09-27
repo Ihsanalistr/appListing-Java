@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ListingApp UTS</string>
+    <string name="lblKos"> </string>
+    <string name="lblNama">Nama: Ihsan Ali (1319058)</string>
+    <string name="lblKls">Kelas: SA02 | Mobile Dev</string>
+    <string name="lblKirim">Kirim</string>
+    <string name="lblPghbg">ke</string>
+    <string name="lblHyd">Huruf yang dirubah: </string>
+    <string name="lblUyd">Urutan yang diinginkan: </string>
+    <string name="lblMenu1">Mengubah Huruf</string>
+    <string name="lblMenu2">Menyusun Kalimat</string>
+</resources>
